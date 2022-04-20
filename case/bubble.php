@@ -11,14 +11,12 @@ function bubble_sort($arr) {
             }
         }
     }
-    return $arr; //kembalikan nilai yang sudah disorting
+    return $arr; 
 }
 //end bubble sort
  
-//Contoh Penggunaan
-$arr = array(0,1,2,3,5,4,6,7,8,9); //data angka yang akan disorting
-$arr = bubble_sort($arr); //gunakan fungsi sorting
+$arr = array(0,1,2,3,5,4,6,7,8,9); 
+$arr = bubble_sort($arr); 
  
-//tampilkan hasil sorting
 print_r($arr);
 ?>
